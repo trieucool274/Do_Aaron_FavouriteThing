@@ -1,0 +1,49 @@
+.fav_container {
+  p{
+    font-size: 0.7em;
+  }
+  h1 {
+    font-size: 1em;
+  }
+}
+
+.hello {
+  color: red;
+  opacity: 0;
+  animation: appear 1s ease-in forwards 1s;
+}
+.ava_pics
+{
+  margin-top: 1em;
+  opacity: 0;
+  animation: appear 1s ease-in forwards 1s;
+}
+.ava{
+  width: 120px;
+  height: 120px;
+}
+
+.like {
+  opacity: 0;
+  animation: appear 1s ease-in forwards 2s;
+}
+
+.intro {
+  opacity: 0;
+  animation: appear 1s ease-in forwards 3s;
+  font: $main-font;
+}
+.guide{
+  margin-top: 1.5em;
+  opacity: 0;
+  animation: appear 1s ease-in forwards 4s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

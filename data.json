@@ -1,0 +1,20 @@
+{
+    "Food": {
+        "name":"Eat Sleep Uber Repeat",
+        "description":"I enjoy eating and explore new culture food around London. Every meal is special to me when it's the time I enjoy the most after long working or study day.",
+        "what":"I'm always urging to try new cuisine in different culture.",
+        "pic":"Eat.gif"
+    },
+    "Music": {
+        "name":"Peace Love Unity Respect",
+        "description":"Music is part of my life energy that motivate me every day. I also enjoyed the raving culture where people enjoy going to EDM festival and share their love in music. I went to different concert and music festival where I can meet new people with similar hobbies.",
+        "what":"I enjoy many type of genre in music as long as it bring the vibe and friendly people",
+        "pic":"Music.gif"
+    },
+    "Movie": {
+        "name":"Netflix and Chill",
+        "description":"Literaly, I also like to burn my free time on movies and tv series on Netflix. Watching new movies especially with friend where I can share my idea and opinion toward current movie.",
+        "what":"My favourite are Stranger Things and You tv series.", 
+        "pic":"Netflix.gif"
+  }
+}
