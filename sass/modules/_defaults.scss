@@ -1,0 +1,67 @@
+body {
+  color: $main-color;
+  font-size: $main-size;
+  font-family: $main-font;
+  -webkit-animation: bgcolor 20s infinite 3s;
+  animation: bgcolor 10s infinite 3s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  margin: 0 auto;
+}
+
+@keyframes bgcolor {
+  0% {
+    background-color: #ffff;
+  }
+
+  15% {
+    background-color: #fff1e1;
+  }
+
+  50% {
+    background-color: rgba(239, 193, 41, 0.6);
+  }
+
+  100% {
+    background-color: rgba(109, 218, 100, 0.4);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .p_avatar {
+    img {
+      width: 400px;
+    }
+  }
+  .bio-panel {
+    max-width: 90vh;
+    h3 {
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+  }
+
+  .buttons {
+    margin-top: 2em;
+  }
+  .button {
+    font-size: 1.2em;
+    width: 30vh;
+  }
+  .fav_container {
+    margin-bottom: 2em;
+    img{
+      width: 220px;
+      height: 220px;
+    }
+    p{
+      font-size: 1.0em;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+  .p-description {
+    font-size: 1.2em;
+  }
+}
